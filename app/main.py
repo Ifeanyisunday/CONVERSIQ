@@ -19,7 +19,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="AI Customer Support API",
+    title="Conversiq",
     description="An AI-powered customer support platform",
     version="0.1.0",
     lifespan=lifespan,
